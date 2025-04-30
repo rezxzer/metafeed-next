@@ -1,11 +1,11 @@
-import Header from '../components/Header';
+import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="bg-[#0d0b1f] min-h-screen text-white">
       <Header />
-      <main className="flex-grow flex items-center justify-center">
-        <h1 className="text-4xl font-bold">Welcome to MetaFeed!</h1>
+      <main className="p-6">
+        <h1 className="text-4xl font-bold mt-10">Welcome to MetaFeed</h1>
       </main>
     </div>
   );
